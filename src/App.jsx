@@ -21,9 +21,7 @@ return(
 
       <Route/>
     </Routes>
- 
-
-<Footer />
+ <Footer />
     </>
    )
 }
