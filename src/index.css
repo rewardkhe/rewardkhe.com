@@ -18,32 +18,33 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
 ::selection {
   color: rgb(0, 0, 0);
   background: rgb(62, 249, 255);
 }
 
 a {
-  
   font-weight: bold;
-  color: #504f4f;
-  text-decoration: inherit;
+  color: #303030;
+  text-decoration: none;
 }
 a:hover {
   color: rgb(0, 178, 184);
 }
 
-body {
+body {  
+  text-align: left;
+
   margin: 0;
-  /* display: flex; */
-  /* place-items: center; */
+ 
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 50vh;
 }
+
 link{
   font-weight: 600;
 }
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -87,7 +88,7 @@ button:focus-visible {
   font-size: 2em;
 }
 
-#linkclass{
+#linkclass {
   display: flex;
   font-size: large;
   right: 0px;
@@ -95,27 +96,94 @@ button:focus-visible {
 #linkclass a {
   margin-right: 8px;
 }
- footer{
-    background-color: rgb(255, 255, 255);
+
+footer{
+    /* background-color: rgb(255, 255, 255); */
     bottom: 0px;
     left: 0;
     position:absolute;
     width: 100%;
-    justify-content: space-between;}
-    .animal{
+    justify-content: space-between;
+}
+    
+.animal{
         display: flex;
         animation-direction: normal;
         animation-iteration-count: infinite;
-        background-color: white;
-        overflow: hidden;}
-    .animal > div {
+        /* background-color: white; */
+        overflow: hidden;
+}
+.animal > div {
         bottom: 0;
         border: 0px;
         padding: 0px 0px 0px 0px;
         margin: auto 15px -5px 0px;
       position: relative;
-      animation: moveRight 100s linear infinite;}
+      animation: moveRight 100s linear infinite;
+    }
     @keyframes moveRight {
         0% {left: -450px;}
-        100% {left: calc(100% - -1vw);}}
+        100% {left: calc(100% - -1vw);}
+}
+ 
+.intro{
+   height:100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 1.5fr 1.5fr 1fr;
+  text-align: start;
+}
+
+.intro-1{
+  grid-column-start: 2;
+  grid-column-end:3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 3em 0em;
+  align-items: flex-end;
+}
+.intro-1 ul{
+  columns: 2;
+  margin: 0em 2em;
+ }
+.intro-1 li {
+  list-style: disc;
+  text-align: left;
+}
+
+.intro-2{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.intro-2 a:hover {
+color: unset;}
+
+.carousel{
+  display: flex;
+}
+
+.carousel div {
+  text-align: left;
+  max-width: 20vw;
+  padding-right: 2em;
+}
+
+.contact{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    margin-top: 8vh;
+    display: inline-flex;
+    align-content: space-around;
+    justify-content: space-between;
+    width: 90%;
+    list-style-type: none;
+
+}
+
  

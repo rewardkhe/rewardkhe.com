@@ -3,6 +3,7 @@ import './App.css'
 import { About } from './assets/About'
 import { Footer } from './assets/Footer'
 import { Home } from './assets/Home'
+import { NotFound } from './assets/Notfound'
 import { Work } from './assets/Work'
 
 function App() {
@@ -18,6 +19,7 @@ return(
       <Route path="/" element = {<Home/>} /> 
       <Route path="/work" element = {<Work/>} />
       <Route path="/about" element = {<About/>} />
+      <Route path="*" element={<NotFound />} />
 
       <Route/>
     </Routes>
