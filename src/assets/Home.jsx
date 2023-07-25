@@ -1,3 +1,3 @@
 export function Home(){
-    return <h1> home</h1>
+    return <h3> Under construction 🚧 </h3>
     }
