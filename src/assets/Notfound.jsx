@@ -1,3 +1,3 @@
 export function NotFound(){
-    return <h3> Page Not Found <br/> Please click back button.</h3>
+    return <h3> Page Not Found <br/> Please go back.</h3>
     }
