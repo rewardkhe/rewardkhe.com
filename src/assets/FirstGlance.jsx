@@ -11,8 +11,8 @@ export function FirstGlance() {
           Make a one page dashboard where user can see different time, uses weather api, currency and stocks.
         </ul>
 
-      </div> 
       <img src = '/FirstGlance-mockup.png'/>
+      </div> 
     
     </>
   );

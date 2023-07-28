@@ -1,16 +1,19 @@
 import {Link, Routes, Route } from 'react-router-dom' 
 import './App.css'
 import { About } from './assets/About'
-import { CompoundVisualiser } from './assets/Compoundvisualiser'
-import { ExpenseCalculator } from './assets/Expensecalculator'
-import { FirstGlance } from './assets/firstglance'
+
+import { CompoundVisualiser } from './assets/CompoundVisualiser'
+import { ExpenseCalculator } from './assets/ExpenseCalculator'
+import { FirstGlance } from './assets/FirstGlance'
 import { Flatmates } from './assets/FlatmatesListingTracker'
-import { Footer } from './assets/Footer'
-import { Home } from './assets/Home'
-import { NotFound } from './assets/Notfound'
 import { SudokuSolver } from './assets/SudokuSolver'
 import { TicTacToe } from './assets/TicTacToe'
 import { WebSocketApp } from './assets/WebSocketApp'
+
+import { Footer } from './assets/Footer'
+import { Home } from './assets/Home'
+import { NotFound } from './assets/Notfound'
+
 import { Work } from './assets/Work'
 
 function App() {
