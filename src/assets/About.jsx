@@ -1,7 +1,7 @@
 export function About(){
     return(
         <> 
-         <h2> Be right back soon🚧</h2>
+         <h2> Be right back🚧</h2>
          </>
     )
 
