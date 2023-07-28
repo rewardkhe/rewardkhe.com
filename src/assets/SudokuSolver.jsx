@@ -1,7 +1,8 @@
 export function SudokuSolver() {
   return (
     <>
-    <h4> Sudoku solver </h4>
+    <h4>Welcome to  Sudoku solver </h4>
+    <hr></hr>
     </>
   );
 }

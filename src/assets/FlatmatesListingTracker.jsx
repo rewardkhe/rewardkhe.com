@@ -1,7 +1,7 @@
 export function Flatmates() {
   return (
     <>
-    <h4> Flatmates listing tracker</h4>
+    <h4>Welcome to  Flatmates listing tracker</h4><hr></hr>
     </>
   );
 }

@@ -1,7 +1,8 @@
 export function ExpenseCalculator() {
   return (
     <>
-      <h4> Expense Calculator</h4>
+      <h3>Welcome to Expense Calculator</h3>
+      <hr></hr>
     </>
   );
 }

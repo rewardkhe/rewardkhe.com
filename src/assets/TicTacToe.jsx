@@ -1,7 +1,7 @@
 export function TicTacToe() {
   return (
     <>
-<h3> Tic Tac Toe</h3>
+<h3>Welcome to  Tic Tac Toe</h3> <hr></hr>
     </>
   );
 }

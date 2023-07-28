@@ -26,11 +26,11 @@ export function Home(){
     <div className="intro-2">
     <h3> Notable projects </h3>
         <div className="carousel">
-         <Link to = "/work/First-Glance"> <div> <h3> First Glance</h3> <img src = '/placeholder-square.png'/> <p>Real time interactive chatting application made in java websocket.</p></div> </Link>
+         <Link to = "/work/First-Glance"> <div> <h3> First Glance</h3> <img src = '/placeholder-square.png'/> <p>As the name suggest, it gives you information about stocks, weather and exchange rates. </p></div> </Link>
         <Link to = "work/Compound-Visualiser">  <div> <h3>Compound Visualiser</h3> <img src = '/placeholder-square.png'/> <p>Visualise your investing through interactive charts and figure.</p></div> </Link>
         <Link to = "work/Expense-Calculator">  <div> <h3>Expense Calculator</h3><img src = '/placeholder-square.png'/> <p>This app can let you view all your expenses in weekly, fortnightly, quarterly and so on.</p></div> </Link>
         <Link to = "work/Sudoku-Solver">  <div> <h3>Sudoku Solver</h3> <img src = '/placeholder-square.png'/><p>Solves sudoku by using smart algorithms and data structures.</p></div> </Link>
-        <Link to = "work/Flatmates-Listing-Tracker">  <div> <h3>Flatmates listing tracker</h3><img src = '/placeholder-square.png'/> <p>Posts you about all new accomodation listing so you can be on top of your house hunting journey.</p></div> </Link>
+        <Link to = "work/Flatmates-Listing-Tracker">  <div> <h3>Flatmates listing tracker</h3><img src = '/placeholder-square.png'/> <p>Keeps you posted about all new accomodation listings so you can be on top of your house hunting journey.</p></div> </Link>
         <Link to = "work/Tic-Tac-Toe">  <div> <h3>Tic Tac Toe</h3> <img src = '/placeholder-square.png'/><p>Simple javascript multiplayer online game.</p></div> </Link>
         <Link to = "work/Web-Socket-App">  <div> <h3>Web socket app</h3> <img src = '/placeholder-square.png'/><p>Real time interactive chatting application made in java websocket.</p></div> </Link>
 
